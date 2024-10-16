@@ -73,7 +73,7 @@ ui <- dashboardPage(
     sidebarMenu(
       br(),
       br(),
-      menuItem("Loan Calculator", tabName = "loan_calc", icon = icon("landmark"))
+      menuItem("Dashboard", tabName = "loan_calc", icon = icon("landmark"))
     ),
     div(class = "sidebar-footer",
         img(src = "images/kenbright2.png")

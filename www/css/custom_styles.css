@@ -10,6 +10,11 @@
   position: relative;
 }
 
+/* Additional padding to push sidebar items down */
+.sidebar-menu {
+  padding-top: 140px; 
+}
+
 .control-bar {
   position: absolute;
   right: 0; 
@@ -66,7 +71,7 @@ body .main-sidebar .sidebar .sidebar-menu li a:hover {
 
 /* custom_styles.css */
 .sidebar-footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
   text-align: left;
@@ -91,8 +96,18 @@ body .main-sidebar .sidebar .sidebar-menu li a:hover {
   width: 100%;
   margin: 0 auto;
   padding: 20px;
-  background-color: white;
+  background-color: #f4f2ee;
   border-radius: 8px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   max-width: 600px; /* Adjust as needed */
+}
+
+
+.skin-blue .sidebar-menu > li.active > a {
+  border-left-color: #ff0000;
+}
+
+.skin-blue .sidebar-menu > li.active > a,
+.skin-blue .sidebar-menu > li:hover > a {
+  border-left-color: #ff0000;
 }
