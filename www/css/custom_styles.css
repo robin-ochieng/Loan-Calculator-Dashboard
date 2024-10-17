@@ -12,7 +12,7 @@
 
 /* Additional padding to push sidebar items down */
 .sidebar-menu {
-  padding-top: 140px; 
+  padding-top: 75px; 
 }
 
 .control-bar {
@@ -96,18 +96,24 @@ body .main-sidebar .sidebar .sidebar-menu li a:hover {
   width: 100%;
   margin: 0 auto;
   padding: 20px;
-  background-color: #f4f2ee;
+  background-color: #202123;
   border-radius: 8px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   max-width: 600px; /* Adjust as needed */
 }
 
-
-.skin-blue .sidebar-menu > li.active > a {
-  border-left-color: #ff0000;
+.loan-calculator-container h1 {
+  color: #202123; /* White color for the text */
+  font-family: 'Mulish', sans-serif; /* Example font */
+  font-size: 24px; /* Example size */
+  font-weight: bold;
+  margin-bottom: 20px; /* Spacing below the header */
 }
 
-.skin-blue .sidebar-menu > li.active > a,
-.skin-blue .sidebar-menu > li:hover > a {
-  border-left-color: #ff0000;
+
+/* Assuming the pink rectangles are buttons for minimizing or other controls */
+.box-primary .box-tools .btn {
+  display: none !important;
 }
+
+
