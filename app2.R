@@ -41,7 +41,7 @@ round_2d <- function(x, two_d = F){
 
 # Define a custom theme using bslib
 my_theme <- bs_theme(
-  bootswatch = "pulse", #'flatly', 'sandstone', 'darkly', 'yeti', 'cosmo', 'lumen', 'minty',  'lux', 'pulse', 'slate', 'solar', 'spacelab', 'superhero', 'united', 'vapor'
+  bootswatch = "minty", #'flatly', 'sandstone', 'darkly', 'yeti', 'cosmo', 'lumen', 'minty',  'lux', 'pulse', 'slate', 'solar', 'spacelab', 'superhero', 'united', 'vapor'
   bg = "#202123", 
   fg = "#E1E1E1", 
   primary = "#202123", 

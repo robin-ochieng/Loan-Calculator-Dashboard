@@ -1,0 +1,16 @@
+The purpose of this Loan Calculator is that, given the details of any particular loan, it will calculate the repayment per period. The app will also output a loan schedule showing the breakdown of each individual repayment and two graphs: one displaying the balance remaining on the loan over time; the other showing the interest versus capital breakdown per repayment.
+
+
+
+
+Explore the power of decision-making with our Loan Calculator! This interactive tool simplifies complex financial calculations, offering a detailed repayment schedule and insightful visualizations of loan dynamics over time.
+
+Whether you need to understand the balance remaining, or how much you're paying in interest vs. capital throughout the loan term, this calculator has you covered. Perfect for individuals and businesses alike, it helps you plan and strategize effectively.
+
+See the app in action and dive into the specifics of how it breaks down payments!
+
+Interested in a custom application that can transform your data into actionable insights? DM us or drop a comment below! 
+
+#LoanCalculator #FinancialTools #RShiny #DataScience #BusinessIntelligence #InteractiveApps #FinancialPlanning
+
+

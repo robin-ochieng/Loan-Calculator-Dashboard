@@ -93,9 +93,9 @@ body .main-sidebar .sidebar .sidebar-menu li a:hover {
 
 .loan-calculator-container {
   text-align: center;
-  width: 100%;
+  width: 400px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 5px;
   background-color: #202123;
   border-radius: 8px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
